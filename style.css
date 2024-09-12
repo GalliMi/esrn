@@ -376,7 +376,7 @@ footer .container{
     }
 
      #nuestros-programas {
-              height: 100vh;
+              
               align-items: center;
 
      }
@@ -390,6 +390,11 @@ footer .container{
          font-size: 1.5em;
        color: #2C44BC;
 
+
+     }
+
+     #foot p {
+                  font-size: 1.5em;
 
      }
 
