@@ -170,27 +170,7 @@ header a:hover{
 
      }
 
-     .image-container {
-  position: relative;
-  display: inline-block; /* Para que el contenedor tenga el tamaño de la imagen */
-}
-
-.image-container img {
-  width: 100%; /* Ajusta el ancho según lo que necesites */
-  height: auto; /* Mantiene la proporción de la imagen */
-}
-
-.texto-sobre-imagen {
-  position: absolute;
-  top: 50%; /* Posiciona el texto en el centro vertical */
-  left: 50%; /* Posiciona el texto en el centro horizontal */
-  transform: translate(-50%, -50%); /* Ajusta la posición para que el centro del texto esté en el centro de la imagen */
-  color: black; /* Color del texto */
-  font-size: 20px; /* Tamaño de la fuente */
-  background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
-  padding: 10px; /* Espaciado alrededor del texto */
-  border-radius: 5px; /* Bordes redondeados */
-}
+    
 
 
 
@@ -347,8 +327,8 @@ footer .container{
         background-image: url("media/mic.png");
         background-size: cover;
         background-position: center center;
-        height: 400px;
-        width: 300px; 
+        height: 700px;
+        width: 600px; 
     }
 
       #radio-escolar h2{
@@ -390,6 +370,19 @@ footer .container{
         justify-content: center;
        
     }
+
+    
+ #nuestros-programas .texto{
+     margin-top: 0;
+         justify-content: right;
+         display: inline-block;
+       max-width: max-content;
+ 
+         font-size: 1em;
+       color: #2C44BC;
+
+
+     }
 
    
 
