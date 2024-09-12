@@ -314,9 +314,13 @@ footer .container{
 
 
 @media  (max-width: 980px) {
+     #radio-escolar {
 
+    height: 100vh;    
+     }
 
   #radio-escolar .container{
+      
         display: flex;
     flex-direction: column-reverse; /* Imagen arriba del texto */
     justify-content: center;
@@ -371,13 +375,17 @@ footer .container{
        
     }
 
+     #nuestros-programas {
+              height: 100vh;
+
+     }
+
     
  #nuestros-programas .texto{
      margin-top: 0;
          justify-content: right;
          display: inline-block;
        max-width: max-content;
- 
          font-size: 1em;
        color: #2C44BC;
 
