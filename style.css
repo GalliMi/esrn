@@ -116,7 +116,8 @@ header a:hover{
 
 #nuestros-programas{
   
-    color: white;
+     color: white;
+              background-color: #2C44BC;
     text-align: center;
 }
 
@@ -133,7 +134,7 @@ header a:hover{
     font-size: 3.2em;
           /* color: #2C44BC;*/
            color: white; /* Color del texto blanco */
-  font-size: 40px; /* Tamaño de la fuente */
+  font-size: 40px; /* Tamaï¿½o de la fuente */
   font-weight: bold; /* Texto en negrita para mayor visibilidad */
   text-shadow: 
     -1px -1px 0 black,  /* Sombras alrededor del texto para el efecto delineado */
@@ -165,7 +166,7 @@ header a:hover{
        max-width: max-content;
  
          font-size: 1.5em;
-       color: #2C44BC;
+       color: white;
 
 
      }
@@ -375,9 +376,11 @@ footer .container{
        
     }
 
-     #nuestros-programas {
+     #nuestros-programas .container {
               
               align-items: center;
+              color: white;
+              background-color: #2C44BC;
 
      }
 
@@ -388,7 +391,7 @@ footer .container{
          display: inline-block;
        max-width: max-content;
          font-size: 1.5em;
-       color: #2C44BC;
+     
 
 
      }
